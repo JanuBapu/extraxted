@@ -7,7 +7,8 @@ import os
 import sys
 
 
-@stark.on_message(filters.command(["start"]))
+@stark.on_message(filters.command(["restart"]) & ~filters.update.edited)
+
 async def Start_msg(bot: stark , m: Message):
     await bot.send_photo(
     m.chat.id,
