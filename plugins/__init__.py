@@ -12,7 +12,7 @@ import sys
 async def Start_msg(bot: stark , m: Message):
     await bot.send_photo(
     m.chat.id,
-    photo="",
+    photo="https://envs.sh/ag6.jpeg",
     caption = "**Hi i am All in One Extractor Bot**.\n"
                             "Press **/pw** for **Physics Wallah**..\n\n"
                             "Press **/e1** for **E1 Coaching App**..\n\n"
